@@ -7,4 +7,12 @@ public class PriceDto implements Serializable {
 
     public String productCode;
     public BigDecimal price;
+
+    @Override
+    public String toString() {
+        return "PriceDto{" +
+                "productCode='" + productCode + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
